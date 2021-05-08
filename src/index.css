@@ -10,14 +10,15 @@ body {
 	font-style: normal;
 	color: #798795;
 	overflow-X: hidden;
-	background-image: url("./assets/images/header-hero.jpg");
-	height: 100vh;
 }
 
 #root {
-	display: grid;
-	grid-template-rows: 1fr 3fr 1fr;
-	height: 100vh;
+	display: flex;
+	min-height: 100vh;
+	height: 100%;
+	flex-direction: column;
+	justify-content: space-between;
+	background-image: url("./assets/images/header-hero.jpg");
 }
 
 * {

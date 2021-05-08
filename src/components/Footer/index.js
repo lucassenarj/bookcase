@@ -4,7 +4,7 @@ import "./style.css";
 
 function Footer(){
   return (
-    <footer id="footer" className="footer-area bg_cover" style={{ backgroundImage: `url(${Background})` }}>
+    <footer id="footer" className="footer-area" style={{ backgroundImage: `url(${Background})` }}>
       <div className="container">
         <div className="footer-copyright text-center">
           <p className="text">
