@@ -1,8 +1,16 @@
-import React from "react";
+import React, { useState } from "react";
+import { useHistory } from "react-router-dom";
 import HeroImage from "./../../assets/images/hero-image.png";
 import "./style.css";
 
 function Hero() {
+  const history = useHistory();
+  const [params, setParams] = useState("");
+
+  function handleSearch() {
+    history.push("/results", params);
+  }
+
   return (
     <div id="home" className="header-hero bg_cover d-lg-flex align-items-center">
       <div className="container">
@@ -16,8 +24,13 @@ function Hero() {
                 Searching for a book is very easy now. You can search for a book by title, author, ISBN, or any other keyword.
               </p>
               <div className="header-singup wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.8s">
-                <input type="text" placeholder="Title / Author / ISBN / Publisher" />
-                <button className="main-btn">Search</button>
+                <input
+                  type="text"
+                  placeholder="Title / Author / ISBN / Publisher"
+                  value={params}
+                  onChange={(e) => setParams(e.target.value)}
+                />
+                <button onClick={() => handleSearch()} className="main-btn">Search</button>
               </div>
             </div>
           </div>
