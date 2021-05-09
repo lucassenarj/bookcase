@@ -11,7 +11,8 @@ function Layout({ children }) {
     new WOW.WOW({
       live: false
     }).init();
-    i18n.changeLanguage("en");
+    i18n.changeLanguage("pt");
+    console.log(i18n.language);
   }, []);
 
   return (
