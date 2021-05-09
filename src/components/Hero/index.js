@@ -1,10 +1,12 @@
 import React, { useState } from "react";
 import { useHistory } from "react-router-dom";
 import HeroImage from "./../../assets/images/hero-image.png";
+import { useTranslation } from 'react-i18next';
 import "./style.css";
 
 function Hero() {
   const history = useHistory();
+  const { t } = useTranslation();
   const [params, setParams] = useState("");
 
   function handleSearch() {
@@ -18,10 +20,11 @@ function Hero() {
           <div className="col-lg-7">
             <div className="header-hero-content">
               <h1 className="hero-title wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.2s">
-                <span>All your favorite books</span> <b>are just a click away</b>
+                <span>{ t("components.hero.title") }</span>
+                <b>{ t("components.hero.subtitle") }</b>
               </h1>
               <p className="text wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.5s">
-                Searching for a book is very easy now. You can search for a book by title, author, ISBN, or any other keyword.
+                { t("components.hero.text") }
               </p>
               <div className="header-singup wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.8s">
                 <input
@@ -30,7 +33,7 @@ function Hero() {
                   value={params}
                   onChange={(e) => setParams(e.target.value)}
                 />
-                <button onClick={() => handleSearch()} className="main-btn">Search</button>
+                <button onClick={() => handleSearch()} className="main-btn">{ t("components.hero.search") }</button>
               </div>
             </div>
           </div>
