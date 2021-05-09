@@ -11,17 +11,20 @@ i18n
   .use(initReactI18next)
   .init({
     fallbackLng: "en",
-    load: "languageOnly",
-    keySeparator: true,
     debug: false,
     whitelist: languages,
-    supportedLngs: languages,
+    defaultNS: "translations",
+    ns: ["translations"],
+    backend: {
+      loadPath: `${process.env.PUBLIC_URL}/locales/{{lng}}/{{ns}}.json`,
+    },
+    load: "languageOnly",
+    react: {
+      useSuspense: true,
+    },    
     interpolation: {
       escapeValue: false,
-    },
-    backend: {
-      loadPath: `${process.env.PUBLIC_URL}/locales/{{lng}}/translations.json`,
-    },
+    }
   });
 
 export default i18n;

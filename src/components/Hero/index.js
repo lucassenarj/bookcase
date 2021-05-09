@@ -29,7 +29,7 @@ function Hero() {
               <div className="header-singup wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.8s">
                 <input
                   type="text"
-                  placeholder="Title / Author / ISBN / Publisher"
+                  placeholder={ t("components.hero.placeholder") }
                   value={params}
                   onChange={(e) => setParams(e.target.value)}
                 />
