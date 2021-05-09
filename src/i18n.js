@@ -13,6 +13,7 @@ i18n
     fallbackLng: "en",
     keySeparator: true,
     debug: false,
+    load: "languageOnly",
     whitelist: languages,
     interpolation: {
       escapeValue: false,
