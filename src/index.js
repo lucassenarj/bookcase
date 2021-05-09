@@ -9,10 +9,11 @@ import "./index.css";
 
 ReactDOM.render(
   <Suspense fallback="loading">
-    <BrowserRouter>
+    <BrowserRouter basename="/bookcase/">
       <Switch>
         <Route path="/" component={HomePage} exact={true} />
         <Route path="/results" component={ResultsPage} />
+        
       </Switch>
     </BrowserRouter>
   </Suspense>,
