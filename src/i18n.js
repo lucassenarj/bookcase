@@ -11,9 +11,9 @@ i18n
   .use(initReactI18next)
   .init({
     fallbackLng: "en",
+    load: "languageOnly",
     keySeparator: true,
     debug: false,
-    load: "languageOnly",
     whitelist: languages,
     interpolation: {
       escapeValue: false,
