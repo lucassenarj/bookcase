@@ -1,0 +1,10 @@
+{
+  "components": {
+    "hero": {
+      "title": "Todos os seus livros favoritos ",
+      "subtitle": "a um clique de você",
+      "text": "Buscar por um livro é muito fácil agora. Você pode buscar o livro pelo título, escritor, ISBN ou por palavra chave.",
+      "search": "Buscar"
+    }
+  }
+}
