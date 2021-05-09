@@ -15,6 +15,7 @@ i18n
     keySeparator: true,
     debug: false,
     whitelist: languages,
+    supportedLngs: languages,
     interpolation: {
       escapeValue: false,
     },
