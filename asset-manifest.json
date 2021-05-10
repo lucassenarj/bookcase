@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/bookcase/static/css/main.c06d984d.chunk.css",
-    "main.js": "/bookcase/static/js/main.1e5f77ba.chunk.js",
-    "main.js.map": "/bookcase/static/js/main.1e5f77ba.chunk.js.map",
-    "runtime-main.js": "/bookcase/static/js/runtime-main.a6d18f9b.js",
-    "runtime-main.js.map": "/bookcase/static/js/runtime-main.a6d18f9b.js.map",
-    "static/js/2.8a70ffe6.chunk.js": "/bookcase/static/js/2.8a70ffe6.chunk.js",
-    "static/js/2.8a70ffe6.chunk.js.map": "/bookcase/static/js/2.8a70ffe6.chunk.js.map",
-    "static/js/3.1131e54b.chunk.js": "/bookcase/static/js/3.1131e54b.chunk.js",
-    "static/js/3.1131e54b.chunk.js.map": "/bookcase/static/js/3.1131e54b.chunk.js.map",
+    "main.css": "/bookcase/static/css/main.9841b158.chunk.css",
+    "main.js": "/bookcase/static/js/main.4a85fad3.chunk.js",
+    "main.js.map": "/bookcase/static/js/main.4a85fad3.chunk.js.map",
+    "runtime-main.js": "/bookcase/static/js/runtime-main.7a5e85f1.js",
+    "runtime-main.js.map": "/bookcase/static/js/runtime-main.7a5e85f1.js.map",
+    "static/js/2.4f08194e.chunk.js": "/bookcase/static/js/2.4f08194e.chunk.js",
+    "static/js/2.4f08194e.chunk.js.map": "/bookcase/static/js/2.4f08194e.chunk.js.map",
+    "static/js/3.ca0c9211.chunk.js": "/bookcase/static/js/3.ca0c9211.chunk.js",
+    "static/js/3.ca0c9211.chunk.js.map": "/bookcase/static/js/3.ca0c9211.chunk.js.map",
     "index.html": "/bookcase/index.html",
-    "static/css/main.c06d984d.chunk.css.map": "/bookcase/static/css/main.c06d984d.chunk.css.map",
-    "static/js/2.8a70ffe6.chunk.js.LICENSE.txt": "/bookcase/static/js/2.8a70ffe6.chunk.js.LICENSE.txt",
+    "static/css/main.9841b158.chunk.css.map": "/bookcase/static/css/main.9841b158.chunk.css.map",
+    "static/js/2.4f08194e.chunk.js.LICENSE.txt": "/bookcase/static/js/2.4f08194e.chunk.js.LICENSE.txt",
     "static/media/index.css": "/bookcase/static/media/header-hero.2035a983.jpg",
     "static/media/footer-bg.33667532.jpg": "/bookcase/static/media/footer-bg.33667532.jpg",
     "static/media/hero-image.33dcbb84.png": "/bookcase/static/media/hero-image.33dcbb84.png",
     "static/media/news-1.7c0c536d.jpg": "/bookcase/static/media/news-1.7c0c536d.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.a6d18f9b.js",
-    "static/js/2.8a70ffe6.chunk.js",
-    "static/css/main.c06d984d.chunk.css",
-    "static/js/main.1e5f77ba.chunk.js"
+    "static/js/runtime-main.7a5e85f1.js",
+    "static/js/2.4f08194e.chunk.js",
+    "static/css/main.9841b158.chunk.css",
+    "static/js/main.4a85fad3.chunk.js"
   ]
 }
