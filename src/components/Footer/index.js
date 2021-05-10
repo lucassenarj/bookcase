@@ -13,8 +13,19 @@ function Footer(){
         <div className="footer-copyright text-center">
           <p className="text">
             © {year}
-            { t("components.footer.developed_by") } <a href="https://lucassenarj.github.io/" rel="nofollow" title="Lucas Sena">Luacs Sena</a>
-            &nbsp; { t("components.footer.layout_by") } <a href="https://uideck.com" rel="nofollow" title="UIdeck">UIdeck</a>
+            &nbsp;
+            { t("components.footer.developed_by") }
+            &nbsp;
+            <a href="https://lucassenarj.github.io/" rel="nofollow" title="Lucas Sena">
+              Luacs Sena
+            </a>
+            &nbsp;
+            { t("components.footer.layout_by") } 
+            &nbsp;
+            <a href="https://uideck.com" rel="nofollow" title="UIdeck">
+              UIdeck
+            </a>
+            &nbsp;
             { t("components.footer.all_rights_reserved") }
           </p>
         </div>
