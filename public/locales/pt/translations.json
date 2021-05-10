@@ -21,5 +21,10 @@
       "layout_by": "layout por",
       "all_rights_reserved": " Todos os direitos reservados."
     }
+  },
+  "pages": {
+    "results": {
+      "search_result_for": "Resultado da busca por"
+    }
   }
 }
