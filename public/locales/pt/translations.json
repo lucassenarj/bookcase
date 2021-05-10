@@ -6,6 +6,15 @@
       "text": "Buscar por um livro é muito fácil agora. Você pode buscar o livro pelo título, escritor, ISBN ou por palavra chave.",
       "search": "Buscar",
       "placeholder": "Título / Escritor / ISBN / Editora"
+    },
+    "header": {
+      "navitems": {
+        "home": "Home",
+        "search": "Busca",
+        "my_books": "Meus Livros",
+        "about": "Sobre",
+        "contact": "Contato"
+      }
     }
   }
 }
