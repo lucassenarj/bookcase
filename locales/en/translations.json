@@ -4,7 +4,8 @@
       "title": "All your favorite books ",
       "subtitle": "are just a click away",
       "text": "Searching for a book is very easy now. You can search for a book by title, author, ISBN, or any other keyword.",
-      "search": "Search"
+      "search": "Search",
+      "placeholder": "Title / Author / ISBN /Publisher"
     }
   }
 }
