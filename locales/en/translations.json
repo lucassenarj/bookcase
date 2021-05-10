@@ -6,6 +6,25 @@
       "text": "Searching for a book is very easy now. You can search for a book by title, author, ISBN, or any other keyword.",
       "search": "Search",
       "placeholder": "Title / Author / ISBN /Publisher"
+    },
+    "header": {
+      "navitems": {
+        "home": "Home",
+        "search": "Search",
+        "my_books": "My books",
+        "about": "About",
+        "contact": "Contact"
+      }
+    },
+    "footer": {
+      "developed_by": "Developed by",
+      "layout_by": "layout by",
+      "all_rights_reserved": "All rights reserved."
+    }
+  },
+  "pages": {
+    "results": {
+      "search_result_for": "Search result for"
     }
   }
 }
