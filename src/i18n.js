@@ -18,6 +18,9 @@ i18n
     backend: {
       loadPath: `${process.env.PUBLIC_URL}/locales/{{lng}}/{{ns}}.json`,
     },
+    detection: {
+      order: ['querystring', 'navigator']
+    },
     load: "languageOnly",
     react: {
       useSuspense: true,

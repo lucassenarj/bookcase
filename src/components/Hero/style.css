@@ -4,12 +4,6 @@
 	position: relative;
 }
 
-@media only screen and (min-width: 1400px) {
-	.header-hero {
-		height: 990px;
-	}
-}
-
 @media only screen and (min-width: 768px) and (max-width: 991px) {
 	.header-hero {
 		height: auto;
