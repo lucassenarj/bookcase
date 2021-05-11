@@ -179,3 +179,13 @@
 		padding: 0 20px;
 	}
 }
+
+.navbar-select-language {
+  margin-left: 20px;
+}
+
+@media only screen and (max-width: 991px) {
+	.navbar-select-language {
+		margin: 0;
+	}
+}

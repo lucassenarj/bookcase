@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import NavItem from "./../NavItem";
+import Language from "./../Language";
 import Logo from "./../../assets/images/logo.png";
 import { useTranslation } from 'react-i18next';
 import "./style.css";
@@ -19,13 +20,20 @@ function Header() {
                 <Link to="/">
                   <img src={Logo} alt="Bookcase" />
                 </Link>
-                <button onClick={() => setDisplay(!display)} className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <button
+                  onClick={() => setDisplay(!display)}
+                  className="navbar-toggler"
+                  type="button"
+                >
                   <span className="toggler-icon"></span>
                   <span className="toggler-icon"></span>
                   <span className="toggler-icon"></span>
                 </button>
 
-                <div className={`collapse navbar-collapse sub-menu-bar ${display ? "show" : ""}`} id="navbarSupportedContent">
+                <div
+                  className={`collapse navbar-collapse sub-menu-bar ${display ? "show" : ""}`}
+                  id="navbarSupportedContent"
+                >
                   <ul id="nav" className="navbar-nav m-auto">
                     <NavItem to="/" title={ t("components.header.navitems.home") } />
                     <NavItem to="/search" title={ t("components.header.navitems.search") } />
@@ -33,6 +41,9 @@ function Header() {
                     <NavItem to="/about" title={ t("components.header.navitems.about") } />
                     <NavItem to="/contact" title={ t("components.header.navitems.contact") } />
                   </ul>
+                  <div className="navbar-select-language">
+                    <Language />
+                  </div>
                 </div>
               </nav>
             </div>
