@@ -1,0 +1,586 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BookList Component renders correctly 1`] = `
+<div
+  class="row justify-content-center"
+>
+  <div
+    class="col-lg-4 col-md-6 col-sm-8 btn-click"
+    data-testid="btn-click"
+  >
+    <div
+      class="single-blog mt-30 wow fadeInUpBig"
+      data-wow-delay="0.4s"
+      data-wow-duration="1s"
+    >
+      <div
+        class="blog-image"
+      >
+        <a>
+          <img
+            alt="news"
+            src="http://books.google.com/books/content?id=DKcWE3WXoj8C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+          />
+        </a>
+      </div>
+      <div
+        class="blog-content"
+      >
+        <h4
+          class="blog-title"
+        >
+          <a>
+            Harry Potter and International Relations
+          </a>
+        </h4>
+        <div
+          class="blog-author d-flex align-items-center"
+        >
+          <div
+            class="author-image"
+          >
+            <img
+              alt="author"
+              src="author-1.jpg"
+            />
+          </div>
+          <div
+            class="author-content media-body"
+          >
+            <h6
+              class="sub-title"
+            >
+              Daniel H. Nexon
+            </h6>
+            <p
+              class="text"
+            >
+              2006
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    class="col-lg-4 col-md-6 col-sm-8 btn-click"
+    data-testid="btn-click"
+  >
+    <div
+      class="single-blog mt-30 wow fadeInUpBig"
+      data-wow-delay="0.4s"
+      data-wow-duration="1s"
+    >
+      <div
+        class="blog-image"
+      >
+        <a>
+          <img
+            alt="news"
+            src="http://books.google.com/books/content?id=2sSMCwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+          />
+        </a>
+      </div>
+      <div
+        class="blog-content"
+      >
+        <h4
+          class="blog-title"
+        >
+          <a>
+            Harry Potter and the Cursed Child – Parts One and Two (Special Rehearsal Edition)
+          </a>
+        </h4>
+        <div
+          class="blog-author d-flex align-items-center"
+        >
+          <div
+            class="author-image"
+          >
+            <img
+              alt="author"
+              src="author-1.jpg"
+            />
+          </div>
+          <div
+            class="author-content media-body"
+          >
+            <h6
+              class="sub-title"
+            >
+              J.K. Rowling
+            </h6>
+            <p
+              class="text"
+            >
+              2016-07-31
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    class="col-lg-4 col-md-6 col-sm-8 btn-click"
+    data-testid="btn-click"
+  >
+    <div
+      class="single-blog mt-30 wow fadeInUpBig"
+      data-wow-delay="0.4s"
+      data-wow-duration="1s"
+    >
+      <div
+        class="blog-image"
+      >
+        <a>
+          <img
+            alt="news"
+            src="http://books.google.com/books/content?id=FCPdzQEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+          />
+        </a>
+      </div>
+      <div
+        class="blog-content"
+      >
+        <h4
+          class="blog-title"
+        >
+          <a>
+            Harry Potter Cookbook
+          </a>
+        </h4>
+        <div
+          class="blog-author d-flex align-items-center"
+        >
+          <div
+            class="author-image"
+          >
+            <img
+              alt="author"
+              src="author-1.jpg"
+            />
+          </div>
+          <div
+            class="author-content media-body"
+          >
+            <h6
+              class="sub-title"
+            >
+              Alvin Brewster
+            </h6>
+            <p
+              class="text"
+            >
+              2020-06-25
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    class="col-lg-4 col-md-6 col-sm-8 btn-click"
+    data-testid="btn-click"
+  >
+    <div
+      class="single-blog mt-30 wow fadeInUpBig"
+      data-wow-delay="0.4s"
+      data-wow-duration="1s"
+    >
+      <div
+        class="blog-image"
+      >
+        <a>
+          <img
+            alt="news"
+            src="http://books.google.com/books/content?id=iO5pApw2JycC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+          />
+        </a>
+      </div>
+      <div
+        class="blog-content"
+      >
+        <h4
+          class="blog-title"
+        >
+          <a>
+            The Ivory Tower and Harry Potter
+          </a>
+        </h4>
+        <div
+          class="blog-author d-flex align-items-center"
+        >
+          <div
+            class="author-image"
+          >
+            <img
+              alt="author"
+              src="author-1.jpg"
+            />
+          </div>
+          <div
+            class="author-content media-body"
+          >
+            <h6
+              class="sub-title"
+            >
+              Lana A. Whited
+            </h6>
+            <p
+              class="text"
+            >
+              2004
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    class="col-lg-4 col-md-6 col-sm-8 btn-click"
+    data-testid="btn-click"
+  >
+    <div
+      class="single-blog mt-30 wow fadeInUpBig"
+      data-wow-delay="0.4s"
+      data-wow-duration="1s"
+    >
+      <div
+        class="blog-image"
+      >
+        <a>
+          <img
+            alt="news"
+            src="http://books.google.com/books/content?id=BoX-6R21MgQC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+          />
+        </a>
+      </div>
+      <div
+        class="blog-content"
+      >
+        <h4
+          class="blog-title"
+        >
+          <a>
+            The Psychology of Harry Potter
+          </a>
+        </h4>
+        <div
+          class="blog-author d-flex align-items-center"
+        >
+          <div
+            class="author-image"
+          >
+            <img
+              alt="author"
+              src="author-1.jpg"
+            />
+          </div>
+          <div
+            class="author-content media-body"
+          >
+            <h6
+              class="sub-title"
+            >
+              Neil Mulholland
+            </h6>
+            <p
+              class="text"
+            >
+              2009-06-22
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    class="col-lg-4 col-md-6 col-sm-8 btn-click"
+    data-testid="btn-click"
+  >
+    <div
+      class="single-blog mt-30 wow fadeInUpBig"
+      data-wow-delay="0.4s"
+      data-wow-duration="1s"
+    >
+      <div
+        class="blog-image"
+      >
+        <a>
+          <img
+            alt="news"
+            src="http://books.google.com/books/content?id=1WgGDAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+          />
+        </a>
+      </div>
+      <div
+        class="blog-content"
+      >
+        <h4
+          class="blog-title"
+        >
+          <a>
+            Heroism in the Harry Potter Series
+          </a>
+        </h4>
+        <div
+          class="blog-author d-flex align-items-center"
+        >
+          <div
+            class="author-image"
+          >
+            <img
+              alt="author"
+              src="author-1.jpg"
+            />
+          </div>
+          <div
+            class="author-content media-body"
+          >
+            <h6
+              class="sub-title"
+            >
+              Katrin Berndt
+            </h6>
+            <p
+              class="text"
+            >
+              2016-04-22
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    class="col-lg-4 col-md-6 col-sm-8 btn-click"
+    data-testid="btn-click"
+  >
+    <div
+      class="single-blog mt-30 wow fadeInUpBig"
+      data-wow-delay="0.4s"
+      data-wow-duration="1s"
+    >
+      <div
+        class="blog-image"
+      >
+        <a>
+          <img
+            alt="news"
+            src="http://books.google.com/books/content?id=Aaug_RnI-xQC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+          />
+        </a>
+      </div>
+      <div
+        class="blog-content"
+      >
+        <h4
+          class="blog-title"
+        >
+          <a>
+            The Irresistible Rise of Harry Potter
+          </a>
+        </h4>
+        <div
+          class="blog-author d-flex align-items-center"
+        >
+          <div
+            class="author-image"
+          >
+            <img
+              alt="author"
+              src="author-1.jpg"
+            />
+          </div>
+          <div
+            class="author-content media-body"
+          >
+            <h6
+              class="sub-title"
+            >
+              Andrew Blake
+            </h6>
+            <p
+              class="text"
+            >
+              2002
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    class="col-lg-4 col-md-6 col-sm-8 btn-click"
+    data-testid="btn-click"
+  >
+    <div
+      class="single-blog mt-30 wow fadeInUpBig"
+      data-wow-delay="0.4s"
+      data-wow-duration="1s"
+    >
+      <div
+        class="blog-image"
+      >
+        <a>
+          <img
+            alt="news"
+            src="http://books.google.com/books/content?id=3PGBUrScs-YC&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+          />
+        </a>
+      </div>
+      <div
+        class="blog-content"
+      >
+        <h4
+          class="blog-title"
+        >
+          <a>
+            Harry Potter and the Bible
+          </a>
+        </h4>
+        <div
+          class="blog-author d-flex align-items-center"
+        >
+          <div
+            class="author-image"
+          >
+            <img
+              alt="author"
+              src="author-1.jpg"
+            />
+          </div>
+          <div
+            class="author-content media-body"
+          >
+            <h6
+              class="sub-title"
+            >
+              Richard Abanes
+            </h6>
+            <p
+              class="text"
+            >
+              2001
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    class="col-lg-4 col-md-6 col-sm-8 btn-click"
+    data-testid="btn-click"
+  >
+    <div
+      class="single-blog mt-30 wow fadeInUpBig"
+      data-wow-delay="0.4s"
+      data-wow-duration="1s"
+    >
+      <div
+        class="blog-image"
+      >
+        <a>
+          <img
+            alt="news"
+            src="http://books.google.com/books/content?id=YhnqzQEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+          />
+        </a>
+      </div>
+      <div
+        class="blog-content"
+      >
+        <h4
+          class="blog-title"
+        >
+          <a>
+            Unofficial Harry Potter Cookbook
+          </a>
+        </h4>
+        <div
+          class="blog-author d-flex align-items-center"
+        >
+          <div
+            class="author-image"
+          >
+            <img
+              alt="author"
+              src="author-1.jpg"
+            />
+          </div>
+          <div
+            class="author-content media-body"
+          >
+            <h6
+              class="sub-title"
+            >
+              Meghan Gilb
+            </h6>
+            <p
+              class="text"
+            >
+              2020-09-24
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    class="col-lg-4 col-md-6 col-sm-8 btn-click"
+    data-testid="btn-click"
+  >
+    <div
+      class="single-blog mt-30 wow fadeInUpBig"
+      data-wow-delay="0.4s"
+      data-wow-duration="1s"
+    >
+      <div
+        class="blog-image"
+      >
+        <a>
+          <img
+            alt="news"
+            src="http://books.google.com/books/content?id=OwOdDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+          />
+        </a>
+      </div>
+      <div
+        class="blog-content"
+      >
+        <h4
+          class="blog-title"
+        >
+          <a>
+            Estudo Comparativo Da VersÃ£o De Harry Potter Y La Piedra Filosofal Em RelaÃ§Ã£o Ã  Narrativa Da Obra Original
+          </a>
+        </h4>
+        <div
+          class="blog-author d-flex align-items-center"
+        >
+          <div
+            class="author-image"
+          >
+            <img
+              alt="author"
+              src="author-1.jpg"
+            />
+          </div>
+          <div
+            class="author-content media-body"
+          >
+            <h6
+              class="sub-title"
+            >
+              Adriane Viz Veiga
+            </h6>
+            <p
+              class="text"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

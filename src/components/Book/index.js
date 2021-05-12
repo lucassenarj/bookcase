@@ -1,33 +1,102 @@
 import React from "react";
-import ImageNews from "./../../assets/images/news-1.jpg";
-import ImageAuthor from "./../../assets/images/author-1.jpg";
-import { Link } from "react-router-dom";
+import PropTypes from "prop-types";
+import { useTranslation } from "react-i18next";
 import "./style.css";
 
-function Book() {
+function Book({ book }) {
+  const { t } = useTranslation();
   return (
-    <div className="col-lg-4 col-md-6 col-sm-8">
-      <div className="single-blog mt-30 wow fadeInUpBig" data-wow-duration="1s" data-wow-delay="0.4s">
-        <div className="blog-image">
-          <Link to="/details"><img src={ImageNews} alt="news" /></Link>
-        </div>
-        <div className="blog-content">
-          <h4 className="blog-title">
-            <Link to="/details">Nulla eget urna at tortor  turpi feugiat tristique in sit.</Link>
-          </h4>
-          <div className="blog-author d-flex align-items-center">
-            <div className="author-image">
-              <img src={ImageAuthor} alt="author" />
+    <section className="blog-details-area">
+      <div className="container">
+        <div className="row">
+          <div className="col-lg-8">
+            <div className="blog-details-content mt-50">
+              <div className="details-image">
+                <img src={book.imageLinks.thumbnail} alt={book.title} />
+              </div>
+              <h3 className="details-title">{ book.title }</h3>
+              <div className="blog-share d-flex">
+                <ul className="social">
+                  <li><i className="fa fa-heart"></i> { t("components.book.like") }</li>
+                  <li><i className="fa fa-share"></i> { t("components.book.share") }</li>
+                  <li><i className="fa fa-list"></i> { t("components.book.save") }</li>
+                </ul>
+              </div>
+              <p className="text">{ book.description }</p>
             </div>
-            <div className="author-content media-body">
-              <h6 className="sub-title">Author name</h6>
-              <p className="text">13/03/2020</p>
+          </div>
+
+          <div className="col-lg-4">
+            <div className="blog-sidebar mt-50">
+              <div className="blog-sidebar-wrapper mb-60">
+                <div className="blog-project">
+                  <div className="sidebar-title text-center">
+                    <h4 className="title">{ t("components.book.info") }</h4>
+                  </div>
+                  <div className="book-info">
+                    <ul>
+                      <li>
+                      { t("components.book.author") }: <span>{ book.authors[0] }</span></li>
+                      <li>{ t("components.book.publisher") }: <span>{ book.publisher }</span></li>
+                      <li>{ t("components.book.pages") }: <span>{ book.pageCount }</span></li>
+                      <li>{ t("components.book.date") }: <span>{ book.publishedDate }</span></li>
+                      <li>{ t("components.book.language") }: <span> { book.language }</span></li>
+                    </ul>
+                  </div>
+                </div>
+
+                <div className="blog-project">
+                  <div className="sidebar-title text-center">
+                    <h4 className="title">{ t("components.book.identifiers") }</h4>
+                  </div>
+                  <div className="book-info">
+                    <ul>
+                      {
+                        book.industryIdentifiers.map((identify, index) => (
+                          <li key={index}>
+                            {identify.type}
+                            <span>{ identify.identifier }</span>
+                          </li>
+                        ))
+                      }
+                    </ul>
+                  </div>
+                </div>
+
+                <div className="blog-ratting">
+                  <div className="sidebar-title text-center">
+                    <h4 className="title">{ t("components.book.my_books") }</h4>
+                  </div>
+                  <div className="ratting-list">
+                    <ul>
+                      <li>Like <span>50</span></li>
+                      <li>Later <span>23</span></li>
+                      <li>Finished <span>5</span></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
+}
+
+Book.propTypes = {
+  book: PropTypes.shape({
+    title: PropTypes.string.isRequired,
+    description: PropTypes.string.isRequired,
+    imageLinks: PropTypes.object.isRequired,
+    industryIdentifiers: PropTypes.arrayOf(PropTypes.object),
+    authors: PropTypes.arrayOf(PropTypes.string).isRequired,
+    pageCount: PropTypes.number.isRequired,
+    publisher: PropTypes.string.isRequired,
+    publishedDate: PropTypes.string,
+    averageRating: PropTypes.number,
+    language: PropTypes.string,
+  }).isRequired,
 }
 
 export default Book;

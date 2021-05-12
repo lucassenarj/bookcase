@@ -20,6 +20,19 @@
       "developed_by": "Desenvolvido por",
       "layout_by": "layout por",
       "all_rights_reserved": "Todos os direitos reservados."
+    },
+    "book": {
+      "like": "Curtir",
+      "share": "Compartilhar",
+      "save": "Salvar",
+      "info": "Informações",
+      "author": "Escritor",
+      "publisher": "Editora",
+      "pages": "Páginas",
+      "date": "Lançamento",
+      "language": "Idioma",
+      "identifiers": "Identificadores",
+      "my_books": "Meus livros"
     }
   },
   "pages": {

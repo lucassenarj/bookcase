@@ -255,12 +255,6 @@ p {
 	position: relative;
 }
 
-@media only screen and (min-width: 1400px) {
-	.header-hero {
-		height: 990px;
-	}
-}
-
 @media only screen and (min-width: 768px) and (max-width: 991px) {
 	.header-hero {
 		height: auto;
@@ -271,4 +265,35 @@ p {
 	.header-hero {
 		height: auto;
 	}
+}
+
+.content-title .welcome {
+	font-size: 18px;
+	font-weight: 400;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	color: #f14836;
+	font-family: "Nunito", sans-serif;
+}
+
+@media (max-width: 767px) {
+	.content-title .welcome {
+		font-size: 16px;
+	}
+}
+
+.content-title .title {
+	padding-top: 10px;
+	font-weight: 400;
+	font-size: 32px;
+}
+
+@media (max-width: 767px) {
+	.content-title .title {
+		font-size: 24px;
+	}
+}
+
+.content-title .title span {
+	font-weight: 700;
 }

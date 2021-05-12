@@ -1,0 +1,206 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Book Component renders correctly 1`] = `
+<section
+  class="blog-details-area"
+>
+  <div
+    class="container"
+  >
+    <div
+      class="row"
+    >
+      <div
+        class="col-lg-8"
+      >
+        <div
+          class="blog-details-content mt-50"
+        >
+          <div
+            class="details-image"
+          >
+            <img
+              alt="Harry Potter and International Relations"
+              src="http://books.google.com/books/content?id=DKcWE3WXoj8C&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE72B5UJgHNPjBlNhjuEpojz1haNfRzQSBz4lIbth_v3rkFm0YARlNEiDDxI-xSreA2QGDKU39PfbCeY8skvSa-IAimVoqHejyu9o31_V6N3wjHLVYxw&source=gbs_api"
+            />
+          </div>
+          <h3
+            class="details-title"
+          >
+            Harry Potter and International Relations
+          </h3>
+          <div
+            class="blog-share d-flex"
+          >
+            <ul
+              class="social"
+            >
+              <li>
+                <i
+                  class="fa fa-heart"
+                />
+                 
+                components.book.like
+              </li>
+              <li>
+                <i
+                  class="fa fa-share"
+                />
+                 
+                components.book.share
+              </li>
+              <li>
+                <i
+                  class="fa fa-list"
+                />
+                 
+                components.book.save
+              </li>
+            </ul>
+          </div>
+          <p
+            class="text"
+          >
+            Why not take seriously the claim that Harry Potter's world intertwines with our own? In this timely yet otherworldly volume, more than a dozen scholars of international relations join hands to demonstrate how this well-loved artifact of popular culture reflects and shapes our own lifeworld. A wide range of historical and sociological sources shows how Harry's world contains aspects of our own. Practices such as quidditch dovetail quite clearly with muggle sports, and the very British-ness of the books has, in translation into languages such as Turkish and Arabic, been transformed to reflect these unique cultures. Chapters on the political economy of the franchise as well as the scholarly problems of studying popular culture frame what is essentially a highly info-taining read. A landmark in muggle studies The Daily Prophet.
+          </p>
+        </div>
+      </div>
+      <div
+        class="col-lg-4"
+      >
+        <div
+          class="blog-sidebar mt-50"
+        >
+          <div
+            class="blog-sidebar-wrapper mb-60"
+          >
+            <div
+              class="blog-project"
+            >
+              <div
+                class="sidebar-title text-center"
+              >
+                <h4
+                  class="title"
+                >
+                  components.book.info
+                </h4>
+              </div>
+              <div
+                class="book-info"
+              >
+                <ul>
+                  <li>
+                    components.book.author
+                    : 
+                    <span>
+                      Daniel H. Nexon
+                    </span>
+                  </li>
+                  <li>
+                    components.book.publisher
+                    : 
+                    <span>
+                      Rowman & Littlefield
+                    </span>
+                  </li>
+                  <li>
+                    components.book.pages
+                    : 
+                    <span>
+                      245
+                    </span>
+                  </li>
+                  <li>
+                    components.book.date
+                    : 
+                    <span>
+                      2006
+                    </span>
+                  </li>
+                  <li>
+                    components.book.language
+                    : 
+                    <span>
+                       
+                      en
+                    </span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div
+              class="blog-project"
+            >
+              <div
+                class="sidebar-title text-center"
+              >
+                <h4
+                  class="title"
+                >
+                  components.book.identifiers
+                </h4>
+              </div>
+              <div
+                class="book-info"
+              >
+                <ul>
+                  <li>
+                    ISBN_10
+                    <span>
+                      0742539598
+                    </span>
+                  </li>
+                  <li>
+                    ISBN_13
+                    <span>
+                      9780742539594
+                    </span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div
+              class="blog-ratting"
+            >
+              <div
+                class="sidebar-title text-center"
+              >
+                <h4
+                  class="title"
+                >
+                  components.book.my_books
+                </h4>
+              </div>
+              <div
+                class="ratting-list"
+              >
+                <ul>
+                  <li>
+                    Like 
+                    <span>
+                      50
+                    </span>
+                  </li>
+                  <li>
+                    Later 
+                    <span>
+                      23
+                    </span>
+                  </li>
+                  <li>
+                    Finished 
+                    <span>
+                      5
+                    </span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+`;

@@ -20,6 +20,19 @@
       "developed_by": "Developed by",
       "layout_by": "layout by",
       "all_rights_reserved": "All rights reserved."
+    },
+    "book": {
+      "like": "Like",
+      "share": "Share",
+      "save": "Save",
+      "info": "Info",
+      "author": "Author",
+      "publisher": "Publisher",
+      "pages": "Pages",
+      "date": "Date",
+      "language": "Language",
+      "identifiers": "Identifiers",
+      "my_books": "My books"
     }
   },
   "pages": {
