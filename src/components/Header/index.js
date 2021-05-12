@@ -36,10 +36,7 @@ function Header() {
                 >
                   <ul id="nav" className="navbar-nav m-auto">
                     <NavItem to="/" title={ t("components.header.navitems.home") } />
-                    <NavItem to="/search" title={ t("components.header.navitems.search") } />
                     <NavItem to="/favorites" title={ t("components.header.navitems.my_books") } />
-                    <NavItem to="/about" title={ t("components.header.navitems.about") } />
-                    <NavItem to="/contact" title={ t("components.header.navitems.contact") } />
                   </ul>
                   <div className="navbar-select-language">
                     <Language />
