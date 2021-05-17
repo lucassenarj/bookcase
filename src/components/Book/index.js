@@ -1,10 +1,9 @@
 import React from "react";
 import PropTypes from "prop-types";
-import { useTranslation } from "react-i18next";
+import i18n from "i18n";
 import "./style.css";
 
 function Book({ book }) {
-  const { t } = useTranslation();
   return (
     <section className="blog-details-area">
       <div className="container">
@@ -17,9 +16,9 @@ function Book({ book }) {
               <h3 className="details-title">{ book.title }</h3>
               <div className="blog-share d-flex">
                 <ul className="social">
-                  <li><i className="fa fa-heart"></i> { t("components.book.like") }</li>
-                  <li><i className="fa fa-share"></i> { t("components.book.share") }</li>
-                  <li><i className="fa fa-list"></i> { t("components.book.save") }</li>
+                  <li><i className="fa fa-heart"></i> { i18n.t("components.book.like") }</li>
+                  <li><i className="fa fa-share"></i> { i18n.t("components.book.share") }</li>
+                  <li><i className="fa fa-list"></i> { i18n.t("components.book.save") }</li>
                 </ul>
               </div>
               <p className="text">{ book.description }</p>
@@ -31,23 +30,23 @@ function Book({ book }) {
               <div className="blog-sidebar-wrapper mb-60">
                 <div className="blog-project">
                   <div className="sidebar-title text-center">
-                    <h4 className="title">{ t("components.book.info") }</h4>
+                    <h4 className="title">{ i18n.t("components.book.info") }</h4>
                   </div>
                   <div className="book-info">
                     <ul>
                       <li>
-                      { t("components.book.author") }: <span>{ book.authors[0] }</span></li>
-                      <li>{ t("components.book.publisher") }: <span>{ book.publisher }</span></li>
-                      <li>{ t("components.book.pages") }: <span>{ book.pageCount }</span></li>
-                      <li>{ t("components.book.date") }: <span>{ book.publishedDate }</span></li>
-                      <li>{ t("components.book.language") }: <span> { book.language }</span></li>
+                      { i18n.t("components.book.author") }: <span>{ book.authors[0] }</span></li>
+                      <li>{ i18n.t("components.book.publisher") }: <span>{ book.publisher }</span></li>
+                      <li>{ i18n.t("components.book.pages") }: <span>{ book.pageCount }</span></li>
+                      <li>{ i18n.t("components.book.date") }: <span>{ book.publishedDate }</span></li>
+                      <li>{ i18n.t("components.book.language") }: <span> { book.language }</span></li>
                     </ul>
                   </div>
                 </div>
 
                 <div className="blog-project">
                   <div className="sidebar-title text-center">
-                    <h4 className="title">{ t("components.book.identifiers") }</h4>
+                    <h4 className="title">{ i18n.t("components.book.identifiers") }</h4>
                   </div>
                   <div className="book-info">
                     <ul>
@@ -65,7 +64,7 @@ function Book({ book }) {
 
                 <div className="blog-ratting">
                   <div className="sidebar-title text-center">
-                    <h4 className="title">{ t("components.book.my_books") }</h4>
+                    <h4 className="title">{ i18n.t("components.book.my_books") }</h4>
                   </div>
                   <div className="ratting-list">
                     <ul>
