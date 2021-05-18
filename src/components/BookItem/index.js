@@ -1,6 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 import ImageAuthor from "./../../assets/images/author-1.jpg";
+import NoThumb from "assets/images/no-thumb.png";
 import { useHistory } from "react-router-dom";
 import { generateSlug } from "./../../utils/helpers";
 import "./style.css";
@@ -20,20 +21,20 @@ function BookItem({ book }) {
     <div className="col-lg-4 col-md-6 col-sm-8 btn-click" onClick={() => handleClick()} data-testid="btn-click">
       <div className="single-blog mt-30 wow fadeInUpBig" data-wow-duration="1s" data-wow-delay="0.4s">
         <div className="blog-image">
-          <a>
-            <img src={book.imageLinks.thumbnail} alt="news" />
-          </a>
+          <div>
+            <img src={book.imageLinks ? book.imageLinks.thumbnail : NoThumb} alt="news" />
+          </div>
         </div>
         <div className="blog-content">
           <h4 className="blog-title">
-            <a>{ book.title }</a>
+            <div>{ book.title }</div>
           </h4>
           <div className="blog-author d-flex align-items-center">
             <div className="author-image">
               <img src={ImageAuthor} alt="author" />
             </div>
             <div className="author-content media-body">
-              <h6 className="sub-title">{ book.authors[0] }</h6>
+              <h6 className="sub-title">{ book.authors }</h6>
               <p className="text">{ book.publishedDate }</p>
             </div>
           </div>
@@ -46,8 +47,8 @@ function BookItem({ book }) {
 BookItem.propTypes = {
   book: PropTypes.shape({
     title: PropTypes.string.isRequired,
-    imageLinks: PropTypes.object.isRequired,
-    authors: PropTypes.arrayOf(PropTypes.string).isRequired,
+    imageLinks: PropTypes.object,
+    authors: PropTypes.arrayOf(PropTypes.string),
     publishedDate: PropTypes.string,
     averageRating: PropTypes.number,
   }).isRequired,

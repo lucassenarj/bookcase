@@ -1,6 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 import i18n from "i18n";
+import NoThumb from "assets/images/no-thumb.png";
 import "./style.css";
 
 function Book({ book }) {
@@ -11,7 +12,7 @@ function Book({ book }) {
           <div className="col-lg-8">
             <div className="blog-details-content mt-50">
               <div className="details-image">
-                <img src={book.imageLinks.thumbnail} alt={book.title} />
+                <img src={book.imageLinks ? book.imageLinks.thumbnail : NoThumb} alt={book.title} />
               </div>
               <h3 className="details-title">{ book.title }</h3>
               <div className="blog-share d-flex">
@@ -35,7 +36,7 @@ function Book({ book }) {
                   <div className="book-info">
                     <ul>
                       <li>
-                      { i18n.t("components.book.author") }: <span>{ book.authors[0] }</span></li>
+                      { i18n.t("components.book.author") }: <span>{ book.authors ? book.authors[0] : "Not available" }</span></li>
                       <li>{ i18n.t("components.book.publisher") }: <span>{ book.publisher }</span></li>
                       <li>{ i18n.t("components.book.pages") }: <span>{ book.pageCount }</span></li>
                       <li>{ i18n.t("components.book.date") }: <span>{ book.publishedDate }</span></li>
