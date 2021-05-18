@@ -13,12 +13,12 @@ exports[`BookItem Component renders correctly 1`] = `
     <div
       class="blog-image"
     >
-      <a>
+      <div>
         <img
           alt="news"
           src="http://books.google.com/books/content?id=DKcWE3WXoj8C&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE72B5UJgHNPjBlNhjuEpojz1haNfRzQSBz4lIbth_v3rkFm0YARlNEiDDxI-xSreA2QGDKU39PfbCeY8skvSa-IAimVoqHejyu9o31_V6N3wjHLVYxw&source=gbs_api"
         />
-      </a>
+      </div>
     </div>
     <div
       class="blog-content"
@@ -26,9 +26,9 @@ exports[`BookItem Component renders correctly 1`] = `
       <h4
         class="blog-title"
       >
-        <a>
+        <div>
           Harry Potter and International Relations
-        </a>
+        </div>
       </h4>
       <div
         class="blog-author d-flex align-items-center"
@@ -48,6 +48,7 @@ exports[`BookItem Component renders correctly 1`] = `
             class="sub-title"
           >
             Daniel H. Nexon
+            Iver B. Neumann
           </h6>
           <p
             class="text"

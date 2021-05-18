@@ -16,12 +16,12 @@ exports[`BookList Component renders correctly 1`] = `
       <div
         class="blog-image"
       >
-        <a>
+        <div>
           <img
             alt="news"
             src="http://books.google.com/books/content?id=DKcWE3WXoj8C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
           />
-        </a>
+        </div>
       </div>
       <div
         class="blog-content"
@@ -29,9 +29,9 @@ exports[`BookList Component renders correctly 1`] = `
         <h4
           class="blog-title"
         >
-          <a>
+          <div>
             Harry Potter and International Relations
-          </a>
+          </div>
         </h4>
         <div
           class="blog-author d-flex align-items-center"
@@ -51,6 +51,7 @@ exports[`BookList Component renders correctly 1`] = `
               class="sub-title"
             >
               Daniel H. Nexon
+              Iver B. Neumann
             </h6>
             <p
               class="text"
@@ -74,12 +75,12 @@ exports[`BookList Component renders correctly 1`] = `
       <div
         class="blog-image"
       >
-        <a>
+        <div>
           <img
             alt="news"
             src="http://books.google.com/books/content?id=2sSMCwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
           />
-        </a>
+        </div>
       </div>
       <div
         class="blog-content"
@@ -87,9 +88,9 @@ exports[`BookList Component renders correctly 1`] = `
         <h4
           class="blog-title"
         >
-          <a>
+          <div>
             Harry Potter and the Cursed Child – Parts One and Two (Special Rehearsal Edition)
-          </a>
+          </div>
         </h4>
         <div
           class="blog-author d-flex align-items-center"
@@ -109,6 +110,8 @@ exports[`BookList Component renders correctly 1`] = `
               class="sub-title"
             >
               J.K. Rowling
+              John Tiffany
+              Jack Thorne
             </h6>
             <p
               class="text"
@@ -132,12 +135,12 @@ exports[`BookList Component renders correctly 1`] = `
       <div
         class="blog-image"
       >
-        <a>
+        <div>
           <img
             alt="news"
             src="http://books.google.com/books/content?id=FCPdzQEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
           />
-        </a>
+        </div>
       </div>
       <div
         class="blog-content"
@@ -145,9 +148,9 @@ exports[`BookList Component renders correctly 1`] = `
         <h4
           class="blog-title"
         >
-          <a>
+          <div>
             Harry Potter Cookbook
-          </a>
+          </div>
         </h4>
         <div
           class="blog-author d-flex align-items-center"
@@ -190,12 +193,12 @@ exports[`BookList Component renders correctly 1`] = `
       <div
         class="blog-image"
       >
-        <a>
+        <div>
           <img
             alt="news"
             src="http://books.google.com/books/content?id=iO5pApw2JycC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
           />
-        </a>
+        </div>
       </div>
       <div
         class="blog-content"
@@ -203,9 +206,9 @@ exports[`BookList Component renders correctly 1`] = `
         <h4
           class="blog-title"
         >
-          <a>
+          <div>
             The Ivory Tower and Harry Potter
-          </a>
+          </div>
         </h4>
         <div
           class="blog-author d-flex align-items-center"
@@ -248,12 +251,12 @@ exports[`BookList Component renders correctly 1`] = `
       <div
         class="blog-image"
       >
-        <a>
+        <div>
           <img
             alt="news"
             src="http://books.google.com/books/content?id=BoX-6R21MgQC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
           />
-        </a>
+        </div>
       </div>
       <div
         class="blog-content"
@@ -261,9 +264,9 @@ exports[`BookList Component renders correctly 1`] = `
         <h4
           class="blog-title"
         >
-          <a>
+          <div>
             The Psychology of Harry Potter
-          </a>
+          </div>
         </h4>
         <div
           class="blog-author d-flex align-items-center"
@@ -306,12 +309,12 @@ exports[`BookList Component renders correctly 1`] = `
       <div
         class="blog-image"
       >
-        <a>
+        <div>
           <img
             alt="news"
             src="http://books.google.com/books/content?id=1WgGDAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
           />
-        </a>
+        </div>
       </div>
       <div
         class="blog-content"
@@ -319,9 +322,9 @@ exports[`BookList Component renders correctly 1`] = `
         <h4
           class="blog-title"
         >
-          <a>
+          <div>
             Heroism in the Harry Potter Series
-          </a>
+          </div>
         </h4>
         <div
           class="blog-author d-flex align-items-center"
@@ -341,6 +344,7 @@ exports[`BookList Component renders correctly 1`] = `
               class="sub-title"
             >
               Katrin Berndt
+              Lena Steveker
             </h6>
             <p
               class="text"
@@ -364,12 +368,12 @@ exports[`BookList Component renders correctly 1`] = `
       <div
         class="blog-image"
       >
-        <a>
+        <div>
           <img
             alt="news"
             src="http://books.google.com/books/content?id=Aaug_RnI-xQC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
           />
-        </a>
+        </div>
       </div>
       <div
         class="blog-content"
@@ -377,9 +381,9 @@ exports[`BookList Component renders correctly 1`] = `
         <h4
           class="blog-title"
         >
-          <a>
+          <div>
             The Irresistible Rise of Harry Potter
-          </a>
+          </div>
         </h4>
         <div
           class="blog-author d-flex align-items-center"
@@ -422,12 +426,12 @@ exports[`BookList Component renders correctly 1`] = `
       <div
         class="blog-image"
       >
-        <a>
+        <div>
           <img
             alt="news"
             src="http://books.google.com/books/content?id=3PGBUrScs-YC&printsec=frontcover&img=1&zoom=1&source=gbs_api"
           />
-        </a>
+        </div>
       </div>
       <div
         class="blog-content"
@@ -435,9 +439,9 @@ exports[`BookList Component renders correctly 1`] = `
         <h4
           class="blog-title"
         >
-          <a>
+          <div>
             Harry Potter and the Bible
-          </a>
+          </div>
         </h4>
         <div
           class="blog-author d-flex align-items-center"
@@ -480,12 +484,12 @@ exports[`BookList Component renders correctly 1`] = `
       <div
         class="blog-image"
       >
-        <a>
+        <div>
           <img
             alt="news"
             src="http://books.google.com/books/content?id=YhnqzQEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
           />
-        </a>
+        </div>
       </div>
       <div
         class="blog-content"
@@ -493,9 +497,9 @@ exports[`BookList Component renders correctly 1`] = `
         <h4
           class="blog-title"
         >
-          <a>
+          <div>
             Unofficial Harry Potter Cookbook
-          </a>
+          </div>
         </h4>
         <div
           class="blog-author d-flex align-items-center"
@@ -538,12 +542,12 @@ exports[`BookList Component renders correctly 1`] = `
       <div
         class="blog-image"
       >
-        <a>
+        <div>
           <img
             alt="news"
             src="http://books.google.com/books/content?id=OwOdDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
           />
-        </a>
+        </div>
       </div>
       <div
         class="blog-content"
@@ -551,9 +555,9 @@ exports[`BookList Component renders correctly 1`] = `
         <h4
           class="blog-title"
         >
-          <a>
+          <div>
             Estudo Comparativo Da VersÃ£o De Harry Potter Y La Piedra Filosofal Em RelaÃ§Ã£o Ã  Narrativa Da Obra Original
-          </a>
+          </div>
         </h4>
         <div
           class="blog-author d-flex align-items-center"
